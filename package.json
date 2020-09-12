@@ -1,0 +1,51 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server/server.js",
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAlzahrani/weather-journal-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedAlzahrani/weather-journal-app/issues"
+  },
+  "homepage": "https://github.com/AhmedAlzahrani/weather-journal-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "cors": "^2.8.5",
+    "css-loader": "^4.2.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "file-loader": "^6.1.0",
+    "html-loader": "^1.3.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.4.1",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "workbox-webpack-plugin": "^5.1.4"
+  }
+}
