@@ -67,7 +67,9 @@ function fetchDestinationData(cityName , daysLeft){
 
 // this function display the trip information in the browser
 function displayTrip(imageURL , dest , weather){
-    document.getElementById("errorMsg").remove();
+    if(document.getElementById("errorMsg"))
+        document.getElementById("errorMsg").remove();
+        
     const container = document.getElementById("trips");
     
     const tripDivContainer = document.createElement("div");
